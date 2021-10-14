@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
       home: const MyHomePage(),
       getPages: [
         GetPage(name: '/', page: () => const MyHomePage()),
-        GetPage(name: '/favorite', page: () => const MyFavorite()),
-        GetPage(name: '/config', page: () => const MyConfig()),
+        GetPage(name: '/favorite', page: () => MyFavorite()),
+        GetPage(name: '/config', page: () => MyConfig()),
       ],
     );
   }
